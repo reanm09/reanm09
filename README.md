@@ -1,6 +1,6 @@
 # Hey 👋 I'm Adithya 
 
-**AI Engineer • Full-Stack Developer • Problem Solver** ---
+**AI Engineer • Full-Stack Developer • Problem Solver** 
 
 ### 🚀 Flagship Projects
 
