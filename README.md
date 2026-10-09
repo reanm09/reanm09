@@ -103,30 +103,6 @@ A full-stack document intelligence platform for evidence-grounded question answe
 
 **Stack:** Python, FastAPI, Next.js, ChromaDB, Celery, Redis, PostgreSQL, Gemini.
 
----
-
-## 💼 Engineering Experience
-
-### 🏥 PetOLife — Full-Stack Intern
-*AI-Powered Pet Healthcare Platform | Oct 2026 – Present*
-
-Building production-oriented clinical AI infrastructure for evidence-grounded veterinary healthcare applications.
-
-- Architected a **Clinical RAG system** using FastAPI, Supabase, Gemini, and SentenceTransformers for medical history retrieval and citation-backed health queries.
-- Developed a hybrid retrieval pipeline combining **BM25, MiniLM embeddings, and Reciprocal Rank Fusion**, achieving **100% Recall@10 and 0.912 nDCG@10** on a synthetic held-out benchmark.
-- Implemented version-aware clinical evidence ingestion, PostgreSQL Row-Level Security, authorization checks, and automatic evidence invalidation.
-- Built AI-powered health timeline, medical record intelligence, and evidence-linked conversational features.
-- Developed safeguards for citation verification, hallucination prevention, cross-pet isolation, and conservative medical-answer refusal.
-
-### 🛩️ DRDO — Research & Development Intern
-*Defence Research and Development Organisation | 2025*
-
-Worked on LLM/VLM-based retrieval and multimodal document intelligence for airworthiness and defense engineering applications.
-
-- Developed retrieval-augmented generation pipelines for large technical document collections.
-- Worked with **LLaVA vision-language model fine-tuning** for multimodal defense document understanding.
-- Evaluated LLM/VLM architectures and retrieval strategies for domain-specific technical applications.
-- Prepared detailed technical documentation covering system architecture, evaluation, and deployment considerations.
 
 ---
 
