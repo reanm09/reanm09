@@ -1,45 +1,167 @@
-# Hey 👋 I'm Adithya 
+# Hey 👋 I'm Adithya
 
-**AI Engineer • Full-Stack Developer • Problem Solver** 
+**Backend & AI Engineer • Agentic Systems • Full-Stack Development**
 
-### 🚀 Flagship Projects
+Computer Science undergraduate at **Presidency University, Bengaluru (Class of 2028)**.
 
-#### **Vortex-Orc | AI-Driven Project Orchestration Platform**
-*Multi-Agent Workspace Generation via Stateful Graph Orchestration and AST Validation*
-- **Stateful Multi-Agent Workflow**: Coordinated a stateful Directed Acyclic Graph (DAG) pipeline using **LangGraph** and **LangChain** to manage context across four specialized concurrent agents (**Research, Feasibility, Architecture, Review**) without context drift.
-- **5-Pass AST Static Validation**: Engineered an Abstract Syntax Tree (**AST**) static analysis engine using a custom `SymbolAndUndefinedVisitor` to verify scoping chains, isolate unresolved global name errors, and check cross-file module contract compliance before filesystem serialization.
-- **Autonomous Self-Correction**: Implemented a mathematical grading quality gate `Score = 10.0 - ({errors} x 1.5) - ({warnings} x 0.3)` that logs failure traces and automatically triggers up to 3 self-correction retry loops.
-- **Human-in-the-Loop Interrupts**: Engineered bidirectional **WebSocket** channels to statefully suspend execution gates via LangGraph interrupt primitives, allowing developers to review blueprints via React Flow, audit live terminal logs, and inject real-time steering feedback.
-- **Eager Sync & Previews**: Bound browser updates to a reactive **Zustand** store and cached **React Query** layers for eager keystroke synchronization, while the ASGI backend dynamically allocates ports to spawn isolated application live previews.
-- **Stack**: FastAPI, LangGraph, Next.js 16 (React 19), ChromaDB, WebSockets, Tailwind CSS 4, React Flow.
+I build AI systems that go beyond model inference — combining intelligent orchestration, reliable backend infrastructure, multimodal reasoning, and evidence-driven architectures.
 
-#### **CrimeGrid | Unified Crime Intelligence System**
-*Full-Stack Predictive Dashboard for Explainable Risk Modeling*
-- **Meta-Dynamic Ensemble**: Engineered a hybrid model fusing **XGBoost** (spatial severity) and **LSTM** (temporal volume) forecasting across 20,000 national records.
-- **Explainable AI (XAI)**: Integrated an interpretable logic layer to surface primary risk drivers, ensuring transparency for tactical decision-making.
-- **Conversational Intelligence**: Built a **RAG-powered assistant** using **Gemma 3** and **ChromaDB** for natural language interrogation of vectorized datasets.
-- **Stack**: FastAPI, Next.js 14, TensorFlow, XGBoost, Leaflet.js.
+Previously worked on **LLM/VLM-based defense intelligence systems at DRDO**. Currently building **clinical AI and healthcare infrastructure at PetOLife**.
 
-#### **IntelliDocs | Hybrid AI Document Platform**
-- **Architecture**: Hybrid RAG merging **FAISS Vector Search** with live Web Search.
-- **Engineering**: Built a non-blocking pipeline using **Celery & Redis** for async PDF processing.
-- **UI/UX**: Custom PDF Viewer with bi-directional interactive citations and dynamic model switching (Gemini Flash/Pro).
-
-#### **Defense RAG Systems @ DRDO**
-*Research Internship*
-- **Multimodal AI**: Fine-tuned **LLaVA** for technical multimodal tasks, improving accuracy in processing airworthiness and defense document intelligence.
-- **Scalable R&D**: Authored deployment-ready documentation and optimized pipelines for high-security, defense-grade datasets.
+🏆 **Two-Time Hackathon Runner-Up**
+- **2nd Place — Fusion X National Hackathon** | AI/ML & Data Science Track | 150+ teams
+- **2nd Place — ISACA Hackathon** | AI-Powered Fraud Detection | 80+ teams
 
 ---
 
-### 🛠️ Tech Stack
-- **AI/ML/Orchestration**: PyTorch, TensorFlow, XGBoost, Scikit-learn, LangGraph, LangChain, Ollama, HuggingFace.
-- **Backend**: Python, FastAPI, Flask, PostgreSQL, Redis, Celery, SQLAlchemy, aiosqlite, Docker.
-- **Frontend**: Next.js, React, React Flow, Monaco Editor, Zustand, React Query, Tailwind CSS 4, Recharts, Leaflet.js.
-- **Databases**: SQL, ChromaDB, FAISS.
+## 🚀 Flagship Projects
+
+### 🔍 [PRISM — Autonomous Digital Artifact Truth Engine](https://github.com/reanm09/PRISM)
+
+*Agentic Security Investigation • Semantic Fracture Detection • Evidence-Based Verification*
+
+An autonomous artifact intelligence platform designed to investigate what digital files actually contain, how different software interprets them, and whether those differences introduce security risks.
+
+- **Semantic Fracture Detection:** Developed a deterministic investigation engine that executes independent parsers against identical file bytes, compares structural interpretations, and identifies security-relevant discrepancies.
+- **Multi-Agent Investigation:** Built an orchestration framework coordinating Evidence, Hypothesis, Experiment, and Validation agents through bounded investigation and evidence-refinement loops.
+- **AI-Powered Triage:** Integrated a fine-tuned Laya model for risk assessment and adaptive routing between `PASS`, `DEEP_SCAN`, and `PRISM_LAB` workflows.
+- **Verified Experimentation:** Implemented typed experiment schemas, allowlisted execution plans, replay protection, and deterministic validation to ensure AI-generated hypotheses are independently verified.
+- **Secure Containment:** Developed real-time artifact monitoring and encrypted quarantine using AES-256-GCM with Windows DPAPI-protected keys.
+- **Explainable Investigation:** Built a full-stack interface exposing parser comparisons, investigation traces, experiment histories, and verified findings.
+
+**Stack:** Python, FastAPI, Next.js, TypeScript, Laya, Ollama, BGE-M3, RAG, PyMuPDF, AES-256-GCM, SSE.
+
+### 🛰️ SatQuery — Multimodal Satellite Intelligence Platform
+
+*Geospatial AI • Vision-Language Models • Multi-Model Orchestration*
+
+A multimodal Earth Observation intelligence platform that transforms natural-language questions and satellite imagery into traceable spatial evidence.
+
+- **Multimodal Intelligence:** Architected analysis workflows supporting RGB, Sentinel-2 multispectral, Sentinel-1 SAR, and bi-temporal satellite imagery.
+- **Specialist Model Orchestration:** Integrated GeoChat-7B, Grounding DINO, ChangeFormer V6, Chg2Cap, and optical–SAR representation encoders into a unified backend.
+- **Change Detection:** Developed workflows combining learned change masks, semantic change descriptions, and radiometric fallback analysis.
+- **Evidence-Grounded Reasoning:** Preserved model provenance, bounding boxes, segmentation masks, change regions, and execution traces to prevent unsupported spatial claims.
+- **GPU Worker Architecture:** Designed isolated inference workers for computationally intensive vision-language models with configurable local and remote execution.
+- **Interactive Analysis Studio:** Built a React-based geospatial workspace for satellite imagery, model outputs, spatial overlays, and project-scoped AI conversations.
+
+**Stack:** Python, FastAPI, PyTorch, TorchGeo, CUDA, Rasterio, React, TypeScript, Supabase, RAG.
+
+*Repository currently private.*
+
+### ⚙️ [Vortex-Orc — Stateful Multi-Agent Orchestration Engine](https://github.com/reanm09/Vortex-Orchestration)
+
+*Agentic Software Engineering • Stateful Execution • Human-in-the-Loop Workflows*
+
+A multi-agent software engineering platform that transforms natural-language project requirements into structured research, architecture, implementation, and deployable workspaces.
+
+- **Stateful Agent Orchestration:** Built cyclical LangGraph workflows coordinating Research, Feasibility, Architecture, and Review agents with shared state and iterative refinement.
+- **Human-in-the-Loop Execution:** Implemented persistent interruption checkpoints allowing developers to inspect, approve, modify, and resume agent workflows.
+- **Real-Time Infrastructure:** Engineered asynchronous WebSocket event streams for live token generation, agent execution status, and terminal output.
+- **Structured Code Generation:** Developed schema-constrained LLM output pipelines with workspace patching, validation, and exportable project generation.
+- **Interactive Developer Workspace:** Built a Next.js interface integrating React Flow, Monaco Editor, live execution feedback, and project visualization.
+
+**Stack:** Python, FastAPI, LangGraph, LangChain, SQLAlchemy Async, WebSockets, Next.js 16, React 19, Zustand, Monaco Editor, React Flow.
+
+### 🛡️ SENTINEL — Neuro-Symbolic Payment Fraud Intelligence
+
+*2nd Place — ISACA Hackathon | 80+ Teams*
+
+An AI-powered fraud intelligence platform designed to detect UPI payment scams, phishing URLs, malicious QR codes, and fraudulent transaction claims.
+
+- **Hybrid Fraud Detection:** Combined fine-tuned DistilBERT, Qwen LLM reasoning, and deterministic verification for fraud assessment.
+- **Phishing Intelligence:** Fine-tuned a DistilBERT classifier on a 210,000-record phishing and benign URL dataset, achieving **99.34% test accuracy and 0.9303 phishing F1-score**.
+- **Multimodal Analysis:** Integrated QR-code parsing, OCR-based evidence extraction, and contextual reasoning to investigate suspicious payment requests.
+- **Evidence-Based Decisions:** Designed fraud analysis workflows that distinguish verified technical signals from model-generated interpretations.
+
+**Stack:** Python, FastAPI, PyTorch, Hugging Face Transformers, DistilBERT, Qwen, Scikit-learn.
+
+### 🏙️ [CrimeGrid — National Crime Intelligence System](https://github.com/reanm09/Crime-Grid)
+
+*2nd Place — Fusion X National Hackathon | 150+ Teams*
+
+A predictive crime intelligence platform combining spatial risk modeling, temporal forecasting, explainable AI, and conversational analytics.
+
+- **Hybrid Predictive Modeling:** Built an XGBoost + LSTM ensemble for spatial crime severity analysis and temporal crime-volume forecasting across 20,000+ records.
+- **Dynamic Ensemble Architecture:** Developed a Meta-Dynamic Weighting System that adjusts model contributions based on regional data volatility.
+- **Explainable AI:** Integrated interpretable risk analysis to surface important prediction drivers and support evidence-based decision-making.
+- **Conversational Analytics:** Built a RAG-powered assistant using Gemma 3 and ChromaDB for natural-language interrogation of crime datasets.
+- **Geospatial Dashboard:** Developed interactive maps and regional intelligence visualizations using Leaflet.js and Recharts.
+
+**Stack:** Python, FastAPI, XGBoost, LSTM, TensorFlow, Gemma 3, ChromaDB, Next.js 14, Leaflet.js.
+
+### 📄 [IntelliDocs — Hybrid RAG Document Intelligence](https://github.com/reanm09/Intellidocs-Retrieval-Augmented-Generation)
+
+*Document AI • Hybrid Retrieval • Distributed Processing*
+
+A full-stack document intelligence platform for evidence-grounded question answering across uploaded documents and external knowledge sources.
+
+- **Hybrid Retrieval:** Combined dense vector retrieval through ChromaDB with live web retrieval for context-aware document analysis.
+- **Distributed Ingestion:** Built asynchronous PDF processing pipelines using Celery workers and Redis message brokering.
+- **Adaptive Model Routing:** Integrated Gemini Flash and Gemini Pro with query-complexity-based routing.
+- **Interactive Citations:** Developed a PDF viewer with bidirectional citation navigation linking AI responses directly to document evidence.
+- **Backend Infrastructure:** Implemented PostgreSQL-backed persistence and secure session management.
+
+**Stack:** Python, FastAPI, Next.js, ChromaDB, Celery, Redis, PostgreSQL, Gemini.
 
 ---
 
-> Building things that make people’s lives easier — one project at a time.
+## 💼 Engineering Experience
+
+### 🏥 PetOLife — Full-Stack Intern
+*AI-Powered Pet Healthcare Platform | Oct 2026 – Present*
+
+Building production-oriented clinical AI infrastructure for evidence-grounded veterinary healthcare applications.
+
+- Architected a **Clinical RAG system** using FastAPI, Supabase, Gemini, and SentenceTransformers for medical history retrieval and citation-backed health queries.
+- Developed a hybrid retrieval pipeline combining **BM25, MiniLM embeddings, and Reciprocal Rank Fusion**, achieving **100% Recall@10 and 0.912 nDCG@10** on a synthetic held-out benchmark.
+- Implemented version-aware clinical evidence ingestion, PostgreSQL Row-Level Security, authorization checks, and automatic evidence invalidation.
+- Built AI-powered health timeline, medical record intelligence, and evidence-linked conversational features.
+- Developed safeguards for citation verification, hallucination prevention, cross-pet isolation, and conservative medical-answer refusal.
+
+### 🛩️ DRDO — Research & Development Intern
+*Defence Research and Development Organisation | 2025*
+
+Worked on LLM/VLM-based retrieval and multimodal document intelligence for airworthiness and defense engineering applications.
+
+- Developed retrieval-augmented generation pipelines for large technical document collections.
+- Worked with **LLaVA vision-language model fine-tuning** for multimodal defense document understanding.
+- Evaluated LLM/VLM architectures and retrieval strategies for domain-specific technical applications.
+- Prepared detailed technical documentation covering system architecture, evaluation, and deployment considerations.
 
 ---
+
+## 🛠️ Technical Stack
+
+| Domain | Technologies |
+|---|---|
+| **Languages** | Python, Java, JavaScript, TypeScript, SQL |
+| **AI / Machine Learning** | PyTorch, TensorFlow, Scikit-learn, XGBoost, Hugging Face Transformers |
+| **Agentic AI** | LangGraph, LangChain, Multi-Agent Orchestration, Human-in-the-Loop Systems |
+| **LLMs & Multimodal AI** | LLaVA, GeoChat, Gemini, Gemma 3, Qwen, Ollama, Laya |
+| **Retrieval & Search** | RAG, BM25, FAISS, ChromaDB, BGE-M3, SentenceTransformers |
+| **Backend Engineering** | FastAPI, Flask, asyncio, WebSockets, Celery, Redis, SQLAlchemy |
+| **Frontend Engineering** | Next.js, React, TypeScript, Tailwind CSS, Zustand, React Query, React Flow |
+| **Databases & Infrastructure** | PostgreSQL, Supabase, SQLite, Docker, JWT, RLS |
+| **Specialized Systems** | CUDA, TorchGeo, Rasterio, Geospatial AI, Document Intelligence, Security Automation |
+
+---
+
+## 🏆 Achievements
+
+🥈 **Fusion X National Hackathon — 2nd Place (April 2026)**  
+AI/ML & Data Science Track | 150+ Participating Teams  
+Built **CrimeGrid**, combining predictive modeling, explainable AI, and retrieval-augmented intelligence.
+
+🥈 **ISACA Hackathon — 2nd Place (September 2026)**  
+80+ Participating Teams  
+Built **SENTINEL**, a neuro-symbolic fraud detection platform integrating transformer-based classification, LLM reasoning, and multimodal payment security analysis.
+
+---
+
+## 📫 Connect
+
+- **Email:** adithya.kri06@gmail.com
+
+---
+
+*Building AI systems that don't just generate answers — they reason, verify, and turn intelligence into reliable software.*
