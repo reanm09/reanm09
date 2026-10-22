@@ -2,7 +2,6 @@
 
 **Backend & AI Engineer • Agentic Systems • Full-Stack Development**
 
-Computer Science undergraduate at **Presidency University, Bengaluru (Class of 2028)**.
 
 I build AI systems that go beyond model inference — combining intelligent orchestration, reliable backend infrastructure, multimodal reasoning, and evidence-driven architectures.
 
